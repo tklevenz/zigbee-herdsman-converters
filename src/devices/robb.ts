@@ -16,7 +16,7 @@ export const definitions: DefinitionWithExtend[] = [
         extend: [m.light({configureReporting: true}), m.electricityMeter()],
     },
     {
-        zigbeeModel: ["ROB_200-081-0"],
+        zigbeeModel: ["ROB_200-081-0", "ROB_200-085-0"],
         model: "ROB_200-081-0",
         vendor: "ROBB",
         description: "4-button wireless Zigbee switch",
